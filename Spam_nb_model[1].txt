@@ -1,0 +1,14 @@
+from sklearn.naive_bayes import MultinomialNB
+
+# Train Naive Bayes classifier
+nb_model = MultinomialNB()
+nb_model.fit(X_train, train_labels)  # Training the model
+
+after running the first one then run the second code also.
+
+
+2)from sklearn.naive_bayes import MultinomialNB
+
+# Train Naive Bayes classifier
+nb_model = MultinomialNB()
+nb_model.fit(X_train, train_labels)  # Training the model
